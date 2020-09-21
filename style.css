@@ -102,6 +102,11 @@ img {
         margin-left: calc((100% - 720px) /2);
         margin-right: calc((100% - 720px) /2);
     }
+
+    #why .row img {
+        height: 130px;
+        padding: 20px;
+    }
 }
 
 /* da 768px a 420px */
@@ -128,6 +133,11 @@ img {
 
     .left, .central {
         margin-bottom: 30px;
+    }
+
+    #why .row img {
+        height: 160px;
+        padding: 20px;
     }
 
 }
