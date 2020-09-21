@@ -72,6 +72,39 @@ img {
   clear: both;
 }
 
+/* da 1024 a 768 */
+@media screen and (max-width: 1024px) {
+    img {
+        height: 170px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      width: 240px;
+    }
+
+    #steps .row>.central{
+        margin-left: calc((100% - 720px) /2);
+        margin-right: calc((100% - 720px) /2);
+    }
+
+
+    #lezioni .row>.left {
+      width: 45%;
+      float: left;
+    }
+
+    #lezioni .row>.right {
+        width: 45%;
+        float: right;
+    }
+}
+
 @media screen and (max-width: 420px) {
     h1 {
         font-size: 28px;
