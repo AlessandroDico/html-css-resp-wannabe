@@ -50,7 +50,7 @@
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
-  padding: 30px
+  padding: 30px;
 }
 
 /* COMMON */
@@ -71,3 +71,57 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 420px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    img {
+      height: 150px;
+    }
+
+    .row {
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    .left, .central {
+        margin-bottom: 20px;
+    }
+
+
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+      width: 100%;
+      float: none;
+    }
+
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      float: none;
+      width: 100%;
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+      margin-top: 30px;
+    }
+
+    #why .row img {
+        height: 130px;
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* togliere questa scritta */
